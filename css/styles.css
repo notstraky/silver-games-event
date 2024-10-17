@@ -72,7 +72,7 @@ p {
 .event-info {
     display: flex;
     justify-content: space-around; /* Espaciado entre las columnas */
-    width: 80%; /* Ancho del contenedor de columnas */
+    width: 75%; /* Ancho del contenedor de columnas */
     z-index: 2; /* Asegura que las columnas estén por encima del overlay */
     margin-top: 20px; /* Espacio entre el texto y las columnas */
 }
@@ -88,10 +88,15 @@ p {
 }
 
 .right-column {
-    margin-left: 20px; /* Espacio entre las columnas */
+    margin-left: 1px; /* Espacio entre las columnas */
     display: flex;
     flex-direction: column;
     justify-content: center; /* Centrar verticalmente el contenido de la columna derecha */
+}
+
+.premio {
+    text-transform: uppercase;
+    color: #e6b800;
 }
 
 button {
@@ -266,6 +271,22 @@ button:hover {
     footer {
         font-size: 8px; /* Ajustar tamaño del texto en el footer */
     }
+
+    .event-info {
+        flex-direction: column; /* Apilar las columnas verticalmente */
+        align-items: center; /* Centrar las columnas horizontalmente */
+        width: 100%; /* Hacer que ocupe todo el ancho */
+    }
+
+    .left-column, .right-column {
+        width: 100%; /* Asegurar que cada columna ocupe el 100% del ancho */
+        text-align: center; /* Centrar el texto */
+    }
+
+    .left-column video {
+        width: 80%; /* Asegurar que el video ocupe todo el ancho de la columna */
+        height: auto; /* Mantener la relación de aspecto */
+    }
 }
 
 /* SECCIÓN STUDIOS */
@@ -273,12 +294,9 @@ button:hover {
     text-align: center;
     padding: 20px;
     background-color: black; /* Fondo negro para la sección de studios */
-}
-
-#studios img {
-    width: 150px; /* Tamaño uniforme para todos los logos */
-    margin: 10px;
-    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5)); /* Resaltar los logos */
+    display: flex; /* Cambiado a flex */
+    flex-direction: column; /* Inicialmente en columna */
+    align-items: center; /* Centrar elementos horizontalmente */
 }
 
 #studios h2 {
@@ -286,10 +304,23 @@ button:hover {
     margin-bottom: 20px;
 }
 
+/* Sección de logos: Cambiar el display a flex y alinearlos horizontalmente */
+.logo-container {
+    display: flex; /* Disposición horizontal para los logos */
+    justify-content: center; /* Centrar los logos horizontalmente */
+    flex-wrap: wrap; /* Permitir que los logos se envuelvan si es necesario */
+}
+
+/* Cada logo y su texto */
 #studios div {
-    display: inline-block;
     text-align: center;
-    margin: 0 15px; /* Espaciado entre logos */
+    margin: 10px; /* Espaciado entre los logos */
+}
+
+#studios img {
+    width: 150px; /* Tamaño uniforme para todos los logos */
+    margin: 10px 0; /* Margen superior e inferior */
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5)); /* Resaltar los logos */
 }
 
 #studios p {
@@ -299,6 +330,31 @@ button:hover {
     margin-top: 10px; /* Espacio entre el logo y el nombre del estudio */
 }
 
+/* Responsivo para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    .logo-container {
+        flex-direction: column; /* Apilar verticalmente en pantallas pequeñas */
+        align-items: center; /* Centrar los logos en pantallas pequeñas */
+    }
+
+    #studios div {
+        margin: 5px 0; /* Espaciado reducido para logos en pantallas pequeñas */
+    }
+
+    #studios img {
+        width: 120px; /* Reducir tamaño de los logos en pantallas pequeñas */
+    }
+}
+
+/* Responsivo para pantallas muy pequeñas (móviles) */
+@media screen and (max-width: 480px) {
+    #studios img {
+        width: 100px; /* Ajustar aún más el tamaño de los logos */
+    }
+}
+
+
+
 /* SECCIÓN FOOTER */
 footer {
     text-align: center;
@@ -307,3 +363,5 @@ footer {
     background-color: #0E131F; /* Color del fondo del footer */
     color: white; /* Color del texto en el footer */
 }
+
+
