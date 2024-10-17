@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silver Games</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+</head>
+<body>
+
+    <section id="hero">
+        <div id="background-container">
+            <div class="slide">
+                <img src="images/background1.jpg" alt="Fondo 1">
+            </div>
+            <div class="slide">
+                <img src="images/background2.jpg" alt="Fondo 2">
+            </div>
+        </div>        
+        <div id="overlay"></div> <!-- Capa de opacidad negra -->
+        
+        <h1>SILVER GAMES</h1>
+        <p>Un evento organizado por Drufete</p>
+        
+        <div class="event-info">
+            <div class="left-column">
+                <h2>Trailer</h2>
+                <video controls width="400" src="images/trailer.mp4"> <!-- Video del trailer -->
+                    Tu navegador no soporta el video.
+                </video>
+            </div>
+            <div class="right-column">
+                <p>Evento Squid Games (Silver Games) Minecraft de 3 días con 100$ de premio para streamers! 🦑</p>
+                <p>8 / 9 / 10 de Noviembre a las 17:30hrs</p>
+                <div class="flags">
+                    
+                </div>
+                
+            </div>
+        </div>
+    
+        <button onclick="scrollToParticipants()">VER PARTICIPANTES</button>
+    </section>
+    
+    
+    
+    
+    
+
+    <div id="participants">
+        <div id="logo">
+            <img src="images/logo.png" alt="Logo" width="100">
+            <h2>PARTICIPANTES</h2>
+        </div>
+        <div id="grid">
+            <!-- Aquí se generarán las casillas -->
+            <script>
+                for (let i = 1; i <= 110; i++) {
+                    document.write(`
+                        <div class="box" onclick="toggleInfo(${i})">
+                            <span class="minecraft-font">${i.toString().padStart(3, '0')}</span>
+                            <div id="info-${i}" class="info">
+                                <img src="images/participants/jugador${i}.png" alt="Participante ${i}" width="50">
+                                <p>Nombre Participante ${i}</p>
+                                <p class="minecraft-font">${i.toString().padStart(3, '0')}</p>
+                            </div>
+                        </div>
+                    `);
+                }
+            </script>
+        </div>
+    </div>
+    
+
+    <div id="studios">
+        <h2>Powered By</h2>
+        <div>
+            <img src="images/Logo NionStudios.png" alt="Nion Studios">
+            <p>Nion Studios</p>
+        </div>
+        <div>
+            <img src="images/Logo Escape State.png" alt="Escape State">
+            <p>Escape State</p>
+        </div>
+        <div>
+            <img src="images/Logo HolyHosting.png" alt="HolyHosting">
+            <p>HolyHosting</p>
+        </div>
+    </div>
+    
+
+    <footer>
+        <p>© 2024 Silver Games. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
