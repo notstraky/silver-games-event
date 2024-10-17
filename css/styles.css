@@ -95,17 +95,19 @@ p {
 }
 
 .premio {
+    font-family: 'Minecraft', sans-serif;
     text-transform: uppercase;
     color: #0785c7;
 }
 
 button {
+    font-family: 'Minecraft', sans-serif;
     padding: 12px 24px; /* Aumentar el padding para un botón más grande */
     font-size: 1.5em; /* Tamaño de fuente */
     background-color: #0785c7; /* Color de fondo dorado */
     border: none; /* Sin borde */
     border-radius: 25px; /* Bordes redondeados para un efecto elegante */
-    color: #000; /* Color del texto negro */
+    color: #ffffff; /* Color del texto negro */
     cursor: pointer; /* Cambiar cursor al pasar el mouse */
     margin-top: 20px; /* Espacio encima del botón */
     transition: all 0.3s ease; /* Transiciones suaves para el hover */

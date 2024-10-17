@@ -157,12 +157,12 @@ const participantsData = [
     },
     {
         "number": 32,
-        "name": "blue_army33",
+        "name": "nicomnu",
         "image": "images/participants/jugador32.png"
     },
     {
         "number": 33,
-        "name": "nicomnu",
+        "name": "blue_army33",
         "image": "images/participants/jugador33.png"
     },
     {
@@ -207,7 +207,7 @@ const participantsData = [
     },
     {
         "number": 42,
-        "name": "Nombre Cuarenta y Dos",
+        "name": "centu",
         "image": "images/participants/jugador42.png"
     },
     {
@@ -227,32 +227,32 @@ const participantsData = [
     },
     {
         "number": 46,
-        "name": "Nombre Cuarenta y Seis",
+        "name": "ivan86121",
         "image": "images/participants/jugador46.png"
     },
     {
         "number": 47,
-        "name": "Nombre Cuarenta y Siete",
+        "name": "rixlod",
         "image": "images/participants/jugador47.png"
     },
     {
         "number": 48,
-        "name": "Nombre Cuarenta y Ocho",
+        "name": "isuei",
         "image": "images/participants/jugador48.png"
     },
     {
         "number": 49,
-        "name": "Nombre Cuarenta y Nueve",
+        "name": "chazsad",
         "image": "images/participants/jugador49.png"
     },
     {
         "number": 50,
-        "name": "Nombre Cincuenta",
+        "name": "lenarrr",
         "image": "images/participants/jugador50.png"
     },
     {
         "number": 51,
-        "name": "Nombre Cincuenta y Uno",
+        "name": "nawel",
         "image": "images/participants/jugador51.png"
     },
     {
@@ -347,7 +347,7 @@ const participantsData = [
     },
     {
         "number": 70,
-        "name": "Nombre Setenta",
+        "name": "KinoFrizza",
         "image": "images/participants/jugador70.png"
     },
     {
