@@ -43,35 +43,9 @@
         <button onclick="scrollToParticipants()">VER PARTICIPANTES</button>
     </section>
     
-    
-    
-    
-    
-
-    <div id="participants">
-        <div id="logo">
-            <img src="images/logo.png" alt="Logo" width="100">
-            <h2>PARTICIPANTES</h2>
-        </div>
-        <div id="grid">
-            <!-- Aquí se generarán las casillas -->
-            <script>
-                for (let i = 1; i <= 110; i++) {
-                    document.write(`
-                        <div class="box" onclick="toggleInfo(${i})">
-                            <span class="minecraft-font">${i.toString().padStart(3, '0')}</span>
-                            <div id="info-${i}" class="info">
-                                <img src="images/participants/jugador${i}.png" alt="Participante ${i}" width="50">
-                                <p>Nombre Participante ${i}</p>
-                                <p class="minecraft-font">${i.toString().padStart(3, '0')}</p>
-                            </div>
-                        </div>
-                    `);
-                }
-            </script>
-        </div>
-    </div>
-    
+    <section id="participants-section" class="participants">
+        <!-- Los cards se generarán dinámicamente desde el archivo JavaScript -->
+    </section>
 
     <div id="studios">
         <h2>Powered By</h2>
@@ -95,6 +69,7 @@
     </footer>
 
     <script src="js/script.js"></script>
+    <script src="js/participants.js"></script>
 
 </body>
 </html>
