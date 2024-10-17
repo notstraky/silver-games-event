@@ -8,7 +8,6 @@ body, html {
     font-family: 'Minecraft', sans-serif; /* Fuente para los números */
 }
 
-
 #hero {
     position: relative;
     height: 100vh;
@@ -115,8 +114,6 @@ button:hover {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4); /* Sombra más pronunciada al pasar el mouse */
 }
 
-
-
 /* Código para el cambio de imágenes de fondo */
 @keyframes fade {
     0% { opacity: 0; }
@@ -133,12 +130,7 @@ button:hover {
     animation-delay: 5s; /* Retraso para el segundo slide */
 }
 
-
-
-
 /* SECCIÓN PARTICIPANTES  */
-
-
 .participants {
     background-color: #0E131F;
     background-image: url(/images/background.png);
@@ -147,11 +139,13 @@ button:hover {
     gap: 10px;
     padding: 20px;
 }
+
 .card {
     width: 150px;
     height: 200px;
     perspective: 1000px;
 }
+
 .card-inner {
     position: relative;
     width: 100%;
@@ -159,9 +153,11 @@ button:hover {
     transition: transform 0.6s;
     transform-style: preserve-3d;
 }
+
 .card.flipped .card-inner {
     transform: rotateY(180deg);
 }
+
 .card-front, .card-back {
     position: absolute;
     width: 100%;
@@ -172,13 +168,14 @@ button:hover {
     align-items: center;
     border: 2px solid #000;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    /* border-radius: 10px; */
 }
+
 .card-front {
     font-size: 2rem;
     background-color: black;
     color: white;
 }
+
 .card-back {
     background-color: black;
     color: white;
@@ -186,12 +183,14 @@ button:hover {
     flex-direction: column;
     text-align: center;
 }
+
 .card-back img {
     max-width: 80%;
     max-height: 80px;
     margin-bottom: 10px;
     border-radius: 10px;
 }
+
 .card-back .minecraft-font:nth-child(2) { /* El segundo elemento (nombre) será amarillo */
     color: yellow;
 }
@@ -202,17 +201,72 @@ button:hover {
 }
 
 /* Responsivo para pantallas pequeñas */
-@media screen and (max-width: 600px) {
-    section {
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+@media screen and (max-width: 768px) {
+    /* Ajustes en el hero */
+    h1 {
+        font-size: 3em; /* Reducir tamaño del título en pantallas pequeñas */
     }
+
+    p {
+        font-size: 1.2em; /* Reducir tamaño del texto del evento */
+    }
+
+    .event-info {
+        flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
+        align-items: center; /* Centrar contenido */
+    }
+
+    .left-column, .right-column {
+        margin: 0; /* Eliminar márgenes laterales */
+        width: 100%; /* Cada columna ocupa todo el ancho */
+    }
+
+    /* Ajustes en la sección de participantes */
+    .participants {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Ajustar tarjetas a 120px como mínimo */
+        padding: 10px; /* Reducir padding */
+    }
+
     .card {
-        width: 100px;
-        height: 150px;
+        width: 120px; /* Ajustar el ancho de las tarjetas */
+        height: 180px; /* Ajustar altura de las tarjetas */
+    }
+
+    /* Ajustes en la sección de estudios */
+    #studios {
+        display: flex; /* Mantener flexbox */
+        flex-wrap: wrap; /* Permitir que los logos se envuelvan */
+        justify-content: center; /* Centrar los logos */
+    }
+
+    #studios img {
+        width: 120px; /* Reducir tamaño de los logos */
+        height: auto; /* Mantener la relación de aspecto */
+    }
+
+    #studios h2 {
+        font-size: 1.5em; /* Ajustar tamaño del título de la sección */
     }
 }
 
+/* Responsivo para pantallas muy pequeñas (móviles) */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 2.5em; /* Ajustar aún más el tamaño del título */
+    }
 
+    p {
+        font-size: 1em; /* Ajustar el tamaño del texto del evento */
+    }
+
+    button {
+        font-size: 1.2em; /* Ajustar tamaño de fuente del botón */
+    }
+
+    footer {
+        font-size: 8px; /* Ajustar tamaño del texto en el footer */
+    }
+}
 
 /* SECCIÓN STUDIOS */
 #studios {
@@ -253,5 +307,3 @@ footer {
     background-color: #0E131F; /* Color del fondo del footer */
     color: white; /* Color del texto en el footer */
 }
-
-
