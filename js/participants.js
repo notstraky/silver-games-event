@@ -2,7 +2,7 @@
 const participantsData = [
     {
         "number": 1,
-        "name": "alewang",
+        "name": "Tamara1001",
         "image": "images/participants/jugador1.png"
     },
     {
@@ -22,7 +22,7 @@ const participantsData = [
     },
     {
         "number": 5,
-        "name": "taffitaa",
+        "name": "alewang",
         "image": "images/participants/jugador5.png"
     },
     {
@@ -257,7 +257,7 @@ const participantsData = [
     },
     {
         "number": 52,
-        "name": "Nombre Cincuenta y Dos",
+        "name": "taffitaa",
         "image": "images/participants/jugador52.png"
     },
     {
@@ -322,7 +322,7 @@ const participantsData = [
     },
     {
         "number": 65,
-        "name": "Nombre Sesenta y Cinco",
+        "name": "",
         "image": "images/participants/jugador65.png"
     },
     {
