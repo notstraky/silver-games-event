@@ -1,0 +1,231 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* Fuente para el resto del texto */
+}
+
+.minecraft-font {
+    font-family: 'Minecraft', sans-serif; /* Fuente para los números */
+}
+
+
+#hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    overflow: hidden; /* Evitar que el contenido se desborde */
+}
+
+#background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 0; /* Colocar el contenedor de fondo detrás del contenido */
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0; /* Inicialmente invisible */
+    transition: opacity 1s ease-in-out; /* Transición suave entre imágenes */
+}
+
+.slide img {
+    width: 100%; /* Asegurarse de que la imagen cubra todo el contenedor */
+    height: 100%; /* Asegurarse de que la imagen cubra todo el contenedor */
+    object-fit: cover; /* Ajustar la imagen para cubrir el área sin distorsionarse */
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Mayor opacidad negra para mejorar la visibilidad de las imágenes */
+    z-index: 1; /* Colocar detrás del contenido */
+}
+
+h1 {
+    font-size: 3em; /* Tamaño del título */
+    color: white; /* Color blanco para el título */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra negra para el título */
+    z-index: 2; /* Asegura que el título esté por encima del overlay */
+    margin: 0; /* Asegurar que no haya márgenes que afecten la posición */
+}
+
+p {
+    font-size: 1.5em; /* Tamaño del texto del evento */
+    color: white; /* Color blanco para el texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra negra solo para el texto especificado */
+    z-index: 2; /* Asegura que el texto esté por encima del overlay */
+    margin: 10px 0; /* Espacio entre párrafos */
+}
+
+.event-info {
+    display: flex;
+    justify-content: space-around; /* Espaciado entre las columnas */
+    width: 80%; /* Ancho del contenedor de columnas */
+    z-index: 2; /* Asegura que las columnas estén por encima del overlay */
+    margin-top: 20px; /* Espacio entre el texto y las columnas */
+}
+
+.left-column,
+.right-column {
+    flex: 1; /* Ambas columnas ocuparán el mismo espacio */
+    text-align: center; /* Centrar el texto dentro de las columnas */
+}
+
+.left-column {
+    margin-right: 20px; /* Espacio entre las columnas */
+}
+
+.right-column {
+    margin-left: 20px; /* Espacio entre las columnas */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrar verticalmente el contenido de la columna derecha */
+}
+
+button {
+    padding: 12px 24px; /* Aumentar el padding para un botón más grande */
+    font-size: 1.5em; /* Tamaño de fuente */
+    background-color: #ffcc00; /* Color de fondo dorado */
+    border: none; /* Sin borde */
+    border-radius: 25px; /* Bordes redondeados para un efecto elegante */
+    color: #000; /* Color del texto negro */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    margin-top: 20px; /* Espacio encima del botón */
+    transition: all 0.3s ease; /* Transiciones suaves para el hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra para un efecto elevado */
+    z-index: 2; /* Asegura que el botón esté por encima del overlay */
+}
+
+button:hover {
+    background-color: #e6b800; /* Color más oscuro al pasar el mouse */
+    transform: translateY(-2px); /* Efecto de elevarse al pasar el mouse */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4); /* Sombra más pronunciada al pasar el mouse */
+}
+
+
+
+/* Código para el cambio de imágenes de fondo */
+@keyframes fade {
+    0% { opacity: 0; }
+    20% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.slide {
+    animation: fade 10s infinite; /* Cambia la duración de la animación como desees */
+}
+
+.slide:nth-child(2) {
+    animation-delay: 5s; /* Retraso para el segundo slide */
+}
+
+
+
+
+/* SECCIÓN PARTICIPANTES */
+#participants {
+    background: url('../images/background.png') no-repeat center center/cover;
+    padding: 20px;
+    display: flex;
+}
+
+#logo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrar verticalmente */
+    align-items: center; /* Centrar horizontalmente */
+}
+
+#logo img {
+    width: 400px; /* Aumentar el tamaño del logo */
+}
+
+#logo h2 {
+    margin-top: 10px; /* Espacio entre el logo y el título */
+    font-size: 3rem;
+    color: white; /* Color del texto */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para resaltar */
+}
+
+#grid {
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    gap: 10px;
+}
+
+.box {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    cursor: pointer;
+    position: relative;
+}
+
+.info {
+    display: none;
+    position: absolute;
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+/* SECCIÓN STUDIOS */
+#studios {
+    text-align: center;
+    padding: 20px;
+    background-color: black; /* Fondo negro para la sección de studios */
+}
+
+#studios img {
+    width: 150px; /* Tamaño uniforme para todos los logos */
+    margin: 10px;
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5)); /* Resaltar los logos */
+}
+
+#studios h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+#studios div {
+    display: inline-block;
+    text-align: center;
+    margin: 0 15px; /* Espaciado entre logos */
+}
+
+#studios p {
+    color: white; /* Color blanco para el texto */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 1.2em; /* Tamaño de fuente atractivo */
+    margin-top: 10px; /* Espacio entre el logo y el nombre del estudio */
+}
+
+/* SECCIÓN FOOTER */
+footer {
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+    background-color: #0E131F; /* Color del fondo del footer */
+    color: white; /* Color del texto en el footer */
+}
