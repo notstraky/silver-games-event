@@ -560,15 +560,18 @@ participantsData.forEach(participant => {
     const card = document.createElement('div');
     card.classList.add('card');
 
+    // Formatear el número para que siempre tenga tres dígitos
+    const formattedNumber = String(participant.number).padStart(3, '0');
+
     card.innerHTML = `
         <div class="card-inner">
             <div class="card-front">
-                <span class="minecraft-font">${participant.number}</span>
+                <span class="minecraft-font">${formattedNumber}</span>
             </div>
             <div class="card-back">
                 <img src="${participant.image}" alt="${participant.name}">
                 <span class="minecraft-font">${participant.name}</span>
-                <span class="minecraft-font">${participant.number}</span>
+                <span class="minecraft-font">${formattedNumber}</span>
             </div>
         </div>
     `;
