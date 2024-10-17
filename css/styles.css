@@ -55,7 +55,7 @@ body, html {
 }
 
 h1 {
-    font-size: 3em; /* Tamaño del título */
+    font-size: 4em; /* Tamaño del título */
     color: white; /* Color blanco para el título */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra negra para el título */
     z-index: 2; /* Asegura que el título esté por encima del overlay */
@@ -141,7 +141,7 @@ button:hover {
 
 .participants {
     background-color: #0E131F;
-    /* background-image: url(/images/background.png); */
+    background-image: url(/images/background.png);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 10px;
@@ -172,9 +172,10 @@ button:hover {
     align-items: center;
     border: 2px solid #000;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 .card-front {
+    font-size: 2rem;
     background-color: black;
     color: white;
 }
@@ -252,3 +253,5 @@ footer {
     background-color: #0E131F; /* Color del fondo del footer */
     color: white; /* Color del texto en el footer */
 }
+
+
