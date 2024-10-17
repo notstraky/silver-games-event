@@ -96,13 +96,13 @@ p {
 
 .premio {
     text-transform: uppercase;
-    color: #e6b800;
+    color: #0785c7;
 }
 
 button {
     padding: 12px 24px; /* Aumentar el padding para un botón más grande */
     font-size: 1.5em; /* Tamaño de fuente */
-    background-color: #ffcc00; /* Color de fondo dorado */
+    background-color: #0785c7; /* Color de fondo dorado */
     border: none; /* Sin borde */
     border-radius: 25px; /* Bordes redondeados para un efecto elegante */
     color: #000; /* Color del texto negro */
@@ -114,7 +114,7 @@ button {
 }
 
 button:hover {
-    background-color: #e6b800; /* Color más oscuro al pasar el mouse */
+    background-color: #0754c7; /* Color más oscuro al pasar el mouse */
     transform: translateY(-2px); /* Efecto de elevarse al pasar el mouse */
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4); /* Sombra más pronunciada al pasar el mouse */
 }
