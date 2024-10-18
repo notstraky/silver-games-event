@@ -262,67 +262,67 @@ const participantsData = [
     },
     {
         "number": 53,
-        "name": "Nombre Cincuenta y Tres",
+        "name": "speekth",
         "image": "images/participants/jugador53.png"
     },
     {
         "number": 54,
-        "name": "Nombre Cincuenta y Cuatro",
+        "name": "soys1k3r",
         "image": "images/participants/jugador54.png"
     },
     {
         "number": 55,
-        "name": "Nombre Cincuenta y Cinco",
+        "name": "ttaaato",
         "image": "images/participants/jugador55.png"
     },
     {
         "number": 56,
-        "name": "Nombre Cincuenta y Seis",
+        "name": "angelsg__",
         "image": "images/participants/jugador56.png"
     },
     {
         "number": 57,
-        "name": "Nombre Cincuenta y Siete",
+        "name": "baconsitoo",
         "image": "images/participants/jugador57.png"
     },
     {
         "number": 58,
-        "name": "Nombre Cincuenta y Ocho",
+        "name": "chabon",
         "image": "images/participants/jugador58.png"
     },
     {
         "number": 59,
-        "name": "Nombre Cincuenta y Nueve",
+        "name": "penma4",
         "image": "images/participants/jugador59.png"
     },
     {
         "number": 60,
-        "name": "Nombre Sesenta",
+        "name": "ulisex3",
         "image": "images/participants/jugador60.png"
     },
     {
         "number": 61,
-        "name": "Nombre Sesenta y Uno",
+        "name": "thiago_gj",
         "image": "images/participants/jugador61.png"
     },
     {
         "number": 62,
-        "name": "Nombre Sesenta y Dos",
+        "name": "agusttincho",
         "image": "images/participants/jugador62.png"
     },
     {
         "number": 63,
-        "name": "Nombre Sesenta y Tres",
+        "name": "mativera07",
         "image": "images/participants/jugador63.png"
     },
     {
         "number": 64,
-        "name": "Nombre Sesenta y Cuatro",
+        "name": "ulisesdaka",
         "image": "images/participants/jugador64.png"
     },
     {
         "number": 65,
-        "name": "",
+        "name": "erickiwi",
         "image": "images/participants/jugador65.png"
     },
     {
@@ -332,12 +332,12 @@ const participantsData = [
     },
     {
         "number": 67,
-        "name": "Nombre Sesenta y Siete",
+        "name": "srcornettouy",
         "image": "images/participants/jugador67.png"
     },
     {
         "number": 68,
-        "name": "Nombre Sesenta y Ocho",
+        "name": "OrigithGames",
         "image": "images/participants/jugador68.png"
     },
     {
