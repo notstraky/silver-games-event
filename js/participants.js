@@ -7,7 +7,7 @@ const participantsData = [
     },
     {
         "number": 2,
-        "name": "lagauchita",
+        "name": "Aizaxl",
         "image": "images/participants/jugador2.png"
     },
     {
@@ -352,77 +352,77 @@ const participantsData = [
     },
     {
         "number": 71,
-        "name": "Nombre Setenta y Uno",
+        "name": "YoSoySecond",
         "image": "images/participants/jugador71.png"
     },
     {
         "number": 72,
-        "name": "Nombre Setenta y Dos",
+        "name": "camigarayy",
         "image": "images/participants/jugador72.png"
     },
     {
         "number": 73,
-        "name": "Nombre Setenta y Tres",
+        "name": "delfigraanata",
         "image": "images/participants/jugador73.png"
     },
     {
         "number": 74,
-        "name": "Nombre Setenta y Cuatro",
+        "name": "luki_klk",
         "image": "images/participants/jugador74.png"
     },
     {
         "number": 75,
-        "name": "Nombre Setenta y Cinco",
+        "name": "valenn_molina",
         "image": "images/participants/jugador75.png"
     },
     {
         "number": 76,
-        "name": "Nombre Setenta y Seis",
+        "name": "MrPolled",
         "image": "images/participants/jugador76.png"
     },
     {
         "number": 77,
-        "name": "Nombre Setenta y Siete",
+        "name": "iarrowdeath",
         "image": "images/participants/jugador77.png"
     },
     {
         "number": 78,
-        "name": "Nombre Setenta y Ocho",
+        "name": "chilltv",
         "image": "images/participants/jugador78.png"
     },
     {
         "number": 79,
-        "name": "Nombre Setenta y Nueve",
+        "name": "doduzen",
         "image": "images/participants/jugador79.png"
     },
     {
         "number": 80,
-        "name": "Nombre Ochenta",
+        "name": "soysaddey",
         "image": "images/participants/jugador80.png"
     },
     {
         "number": 81,
-        "name": "Nombre Ochenta y Uno",
+        "name": "kappa_hanzaki_",
         "image": "images/participants/jugador81.png"
     },
     {
         "number": 82,
-        "name": "Nombre Ochenta y Dos",
-        "image": "images/participants/jugador82.png"
+        "name": "",
+        "image": "images/participants/jugador822222.png"
     },
     {
         "number": 83,
-        "name": "Nombre Ochenta y Tres",
+        "name": "miqui7l",
         "image": "images/participants/jugador83.png"
     },
     {
         "number": 84,
-        "name": "Nombre Ochenta y Cuatro",
+        "name": "camilanga",
         "image": "images/participants/jugador84.png"
     },
     {
         "number": 85,
-        "name": "Nombre Ochenta y Cinco",
+        "name": "haedcolor",
         "image": "images/participants/jugador85.png"
     },
     {
