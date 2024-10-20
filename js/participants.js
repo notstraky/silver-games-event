@@ -182,7 +182,7 @@ const participantsData = [
     },
     {
         "number": 37,
-        "name": "joaconeco",
+        "name": "meelooh",
         "image": "images/participants/jugador37.png"
     },
     {
@@ -342,7 +342,7 @@ const participantsData = [
     },
     {
         "number": 69,
-        "name": "Nombre Sesenta y Nueve",
+        "name": "ddgoficial",
         "image": "images/participants/jugador69.png"
     },
     {
