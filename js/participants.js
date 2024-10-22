@@ -537,7 +537,7 @@ const participantsData = [
     },
     {
         "number": 108,
-        "name": "Nombre Ciento Ocho",
+        "name": "TiroLoco",
         "image": "images/participants/jugador108.png"
     },
     {
