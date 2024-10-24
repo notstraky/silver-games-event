@@ -202,7 +202,7 @@ const participantsData = [
     },
     {
         "number": 41,
-        "name": "luukre",
+        "name": "bottodea",
         "image": "images/participants/jugador41.png"
     },
     {
@@ -507,12 +507,12 @@ const participantsData = [
     },
     {
         "number": 102,
-        "name": "Nombre Ciento Dos",
+        "name": "alan2k2tv",
         "image": "images/participants/jugador102.png"
     },
     {
         "number": 103,
-        "name": "Nombre Ciento Tres",
+        "name": "rageylo0",
         "image": "images/participants/jugador103.png"
     },
     {
