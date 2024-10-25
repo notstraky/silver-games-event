@@ -502,7 +502,7 @@ const participantsData = [
     },
     {
         "number": 101,
-        "name": "Slend00",
+        "name": "",
         "image": "images/participants/jugador101.png"
     },
     {
@@ -546,10 +546,30 @@ const participantsData = [
         "image": "images/participants/jugador109.png"
     },
     {
-        "number": 110,
+        "number": 111,
         "name": "Nombre Ciento Diez",
         "image": "images/participants/jugador110.png"
-    }
+    },
+    {
+        "number": 112,
+        "name": "Nombre Ciento Diez",
+        "image": "images/participants/jugador110.png"
+    },
+    {
+        "number": 113,
+        "name": "Nombre Ciento Diez",
+        "image": "images/participants/jugador110.png"
+    },
+    {
+        "number": 114,
+        "name": "Nombre Ciento Diez",
+        "image": "images/participants/jugador110.png"
+    },
+    {
+        "number": 115,
+        "name": "Nombre Ciento Diez",
+        "image": "images/participants/jugador110.png"
+    },
 ];
 
 // Seleccionamos la sección donde se colocarán las tarjetas
