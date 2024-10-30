@@ -407,8 +407,8 @@ const participantsData = [
     },
     {
         "number": 82,
-        "name": "",
-        "image": "images/participants/jugador822222.png"
+        "name": "marmorandi",
+        "image": "images/participants/jugador82.png"
     },
     {
         "number": 83,
@@ -502,7 +502,7 @@ const participantsData = [
     },
     {
         "number": 101,
-        "name": "",
+        "name": "lilithluvsya",
         "image": "images/participants/jugador101.png"
     },
     {
