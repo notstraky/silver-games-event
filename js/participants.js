@@ -542,7 +542,7 @@ const participantsData = [
     },
     {
         "number": 109,
-        "name": "Nombre Ciento Nueve",
+        "name": "skeletalmax",
         "image": "images/participants/jugador109.png"
     },
     {
