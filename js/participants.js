@@ -589,6 +589,11 @@ const participantsData = [
         "number": 118,
         "name": "nilkowiz",
         "image": "images/participants/jugador118.png"
+    },
+    {
+        "number": 119,
+        "name": "lalitojr1804",
+        "image": "images/participants/jugador119.png"
     }
 ];
 
