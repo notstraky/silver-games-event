@@ -512,22 +512,22 @@ const participantsData = [
     },
     {
         "number": 103,
-        "name": "rageylo0",
+        "name": "aleethefrog",
         "image": "images/participants/jugador103.png"
     },
     {
         "number": 104,
-        "name": "Nombre Ciento Cuatro",
+        "name": "apojema",
         "image": "images/participants/jugador104.png"
     },
     {
         "number": 105,
-        "name": "Nombre Ciento Cinco",
+        "name": "biologiadesdecero",
         "image": "images/participants/jugador105.png"
     },
     {
         "number": 106,
-        "name": "Nombre Ciento Seis",
+        "name": "loadingeclipse",
         "image": "images/participants/jugador106.png"
     },
     {
@@ -546,30 +546,50 @@ const participantsData = [
         "image": "images/participants/jugador109.png"
     },
     {
-        "number": 111,
-        "name": "Nombre Ciento Diez",
+        "number": 110,
+        "name": "Firesoul55",
         "image": "images/participants/jugador110.png"
+    },
+    {
+        "number": 111,
+        "name": "mrpastelitoo_",
+        "image": "images/participants/jugador111.png"
     },
     {
         "number": 112,
-        "name": "Nombre Ciento Diez",
-        "image": "images/participants/jugador110.png"
+        "name": "isarpcl",
+        "image": "images/participants/jugador112.png"
     },
     {
         "number": 113,
-        "name": "Nombre Ciento Diez",
-        "image": "images/participants/jugador110.png"
+        "name": "donchechuu",
+        "image": "images/participants/jugador113.png"
     },
     {
         "number": 114,
-        "name": "Nombre Ciento Diez",
-        "image": "images/participants/jugador110.png"
+        "name": "smaashwtf",
+        "image": "images/participants/jugador114.png"
     },
     {
         "number": 115,
-        "name": "Nombre Ciento Diez",
-        "image": "images/participants/jugador110.png"
+        "name": "alucardont",
+        "image": "images/participants/jugador115.png"
     },
+    {
+        "number": 116,
+        "name": "asixrx",
+        "image": "images/participants/jugador116.png"
+    },
+    {
+        "number": 117,
+        "name": "axegaf",
+        "image": "images/participants/jugador117.png"
+    },
+    {
+        "number": 118,
+        "name": "nilkowiz",
+        "image": "images/participants/jugador118.png"
+    }
 ];
 
 // Seleccionamos la sección donde se colocarán las tarjetas
